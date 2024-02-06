@@ -8,7 +8,7 @@ pipeline{
     
     parameters{
         string(name: 'username', defaultValue: 'jenkins', description: "IAM")
-        booleanParam(select:'isTrue', defaultValue:true, description:"Enter")
+        //booleanParam(select:'isTrue', defaultValue:true, description:"Enter")
     }
     
     stages{
